@@ -1,0 +1,25 @@
+# Rust
+/target
+**/*.rs.bk
+*.pdb
+
+# Node / Svelte / Tauri
+node_modules/
+/build
+/.svelte-kit
+qemuvisor-gui/build
+qemuvisor-gui/.svelte-kit
+
+# Archivos internos y de desarrollo (NO SUBIR)
+status.md
+.cargo/
+.vscode/
+.idea/
+.env
+.DS_Store
+*.log
+
+# Archivos de prueba locales
+vms/
+*.qcow2
+*.iso

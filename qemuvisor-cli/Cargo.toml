@@ -1,0 +1,12 @@
+[package]
+name = "qemuvisor-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+qemuvisor-core = { path = "../qemuvisor-core" }
+tokio = { workspace = true }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+tabled = "0.15"
+uuid = { workspace = true }
